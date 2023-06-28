@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
 </head>
 
 <style>
     .heading{
         color: rgb(68, 142, 142);
-            margin-top: 300px;  
-            text-align: center;    
+            /* margin-top: 300px;   */
+            text-align: center;   
+            /* padding-right:200px ;  */
+            /* size: 20px; */
+
+    }
+
+    #aboutus{
+            /* padding-right:0px ;  */
+            padding-top: 50px;
 
     }
 
     .text{
         /* border: 4px solid purple; */
           word-wrap: break-word;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Poppins;
         /* font-weight: bold; */
         font-size: large;
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 10px;
+        padding-top: 30px;
         /* box-sizing: border-box;
         border-radius: 8px; */
       
@@ -47,43 +60,81 @@
  .dev_names{
     font-size: larger;
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:poppins
 
  }
-    
-   
-    /* .row::after{
-    content: "";
-    display: table;
-    clear: both;
 
-
-} */
-    
-    
-/* 
-    #funny{
-
-   
-.one{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+ /* writetous:hover{
+    color: rgb(76, 76, 237);
+ } */
+a:active{
+    background-color: rgb(22, 223, 96);
 }
 
-.two{
-    float: center;
-    width: 33.33%;
-    padding: 5px;
+a:hover{
+    color: #9c1b1b;
 }
 
-/*  */
+.btn:hover{
+    background-color: #3ef4b8;
+}
+ .btn{
+     background-color: #7fffd4;
+     font-weight: bold ;
+      font-family: Poppins;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 13px;
+ }
+
+    
+   .navbar{
+    background-color: rgba(0, 0, 0, 0.906);
+    
+      /* padding-right: 250px; */
+    /* text-decoration: none; */
+   }
+   .navbar ul{
+    overflow: auto;
+    
+    
+   }
+   .navbar li {
+    float: right;
+    list-style: none;
+    padding-right: 152px;
+    margin: 20px;
+
+    /* text-decoration: none; */
+
+   }
+
+   .navbar li a{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: larger;
+     color:white ;
+   }
+
 
 </style>
 <body>
-    <button style="font-weight: 800 ;  font-family: Verdana, Geneva, Tahoma, sans-serif;"><h3>Explore Books</h3></button>
+   
+<header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Sign In</a></li>
+            <li><a  href="#">Contact Us</a></li>
+            <li><a  href="#">Genres</a></li>
+            <li><a  href="#">Home</a></li>
+            <li><a  href="#">Explore Books</a></li>
+        </ul>
+    </nav>
+</header>
+    <!-- <button class="btn"><h3></h3></button> -->
+     <h1 class="heading" id="aboutus">About</h1>
 
-    <h1 class="heading">About US</h1>
     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis quidem, reiciendis officiis a ipsam, repellendus quasi, atque facilis nisi odit ducimus! Ducimus repellat sunt facere explicabo nesciunt dolore unde. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime autem commodi perspiciatis a. Ipsa officiis minus ipsam iusto inventore! Optio hic magnam repudiandae accusantium nostrum dolorem obcaecati qui natus dolore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis quidem, reiciendis officiis a ipsam, repellendus
     quasi, atque facilis nisi odit ducimus! Ducimus repellat sunt facere explicabo nesciunt dolore unde. Lorem ipsum dolor
     sit amet consectetur, adipisicing elit. Maxime autem commodi perspiciatis a. Ipsa officiis minus ipsam iusto inventore!
@@ -92,23 +143,15 @@
     sit amet consectetur, adipisicing elit. Maxime autem commodi perspiciatis a. Ipsa officiis minus ipsam iusto inventore!
     Optio hic magnam repudiandae accusantium nostrum dolorem obcaecati qui natus dolore.</p>
     <h1 class="heading">Developers</h1>
-    <!-- <p id="dev_names"></p> -->
-    <!-- <div class="dev_details"> -->
-    <!-- <p> Fanindra Saini</p> -->
-        <!-- <span class="caption">Fanindra Saini</span> -->
-<!-- <div class="ina"> -->
-    <!-- <p> Ina Zehra</p> -->
-<!-- </div> -->
-<!-- <p id="funny"></p>
-<p id="ina"></p> -->
+
 <div class="row">
     <div class="image" style="text-align: center;">
-        <img src="funny.png">
+        <img src="funny.png" height="100px" width="100px">
         <p class="dev_names">Fanindra Saini</p>
     </div>
 
     <div class="image" style="text-align: center">
-        <img src="tv.jpeg">
+        <img src="tv.jpg" height="100px" width="100px">
         <p class="dev_names">Ishatv Beohar</p>
     </div>
 
@@ -118,7 +161,7 @@
         <!-- <p>Ina Zehra</p> -->
     </div>
 </div>
-        <h3>Want to suggest improvements? <button style="color: rgb(29, 232, 90); font-weight: 800 ; ">Write to us!</button></h3>
+        <!-- <h3>Want to suggest improvements? <a href=""  id="writetous" class="btn">Write to us!</h3> -->
 
 
 </body>
