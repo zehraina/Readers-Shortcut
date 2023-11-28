@@ -1,0 +1,304 @@
+#fantasy {
+     /* background-image: url('https://nicolaalter.files.wordpress.com/2017/02/thoughtsonfantasy_banner.jpg');  */
+     background-image: url('images/fantasy_banner.jpg');
+     /* Replace with your image path */
+
+     /* overflow: scroll; */
+     height: 100vh;
+     width: 100wh;
+     overflow: scroll;
+
+ }
+
+ #SelfHelp {
+     background-image: url('https://media.glamourmagazine.co.uk/photos/63bed3181baa0b52245d36da/16:9/w_2580,c_limit/SELF%20HELP%20BOOKS%20110123%20default-land.jpg');
+     /* Replace with your image path */
+
+     height: 100vh;
+     width: 100wh;
+     overflow: scroll;
+
+
+ }
+
+
+ #Thriller {
+     height: 100vh;
+     width: 100wh;
+     background-image: url('https://bibliolifestyle.com/wp-content/uploads/2021/11/Most-Anticipated-Winter-2022-Thrillers-Mysteries-and-Suspense-Novels.png');
+     /* Replace with your image path */
+ }
+
+ #comics {
+     height: 100vh;
+     width: 100wh;
+     background-image: url('https://deescomics.com.au/wp-content/uploads/2018/10/hcf18-banner-comics.jpg');
+     /* Replace with your image path */
+ }
+
+ #romance {
+     height: 100vh;
+     width: 100wh;
+     background-image: url('https://www.roamingromancebooks.com/cdn/shop/files/RRbanner.png?v=1688344863&width=3840');
+     /* Replace with your image path */
+ }
+
+ #scifi {
+     height: 100vh;
+     width: 100wh;
+     background-image: url('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1555252440i/27363116._SX540_.jpg');
+     /* Replace with your image path */
+ }
+
+ /* Global Styles */
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f8f8f8;
+ }
+
+ /* Navigation Bar Styles */
+ .navbar {
+     background-color: #fff;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     position: fixed;
+     width: 100%;
+     z-index: 1;
+ }
+
+ .navbar-brand {
+     font-size: 24px;
+     font-weight: bold;
+     padding: 10px 20px;
+ }
+
+ .navbar-nav {
+     margin-right: 20px;
+ }
+
+ .nav-item {
+     margin: 0 15px;
+ }
+
+ /* Hero Section Styles */
+
+ .hero h1 {
+     font-size: 80px;
+     color: white;
+     margin-bottom: 20px;
+ }
+
+ .hero p {
+     font-size: 18px;
+     max-width: 500px;
+ }
+
+ /* Genre Sections Styles */
+ .genre-section {
+     background-color: #fff;
+     padding: 80px 0;
+ }
+
+ .genre-section h2 {
+     font-size: 36px;
+     margin-bottom: 40px;
+ }
+
+ /* Profile Account Styles */
+ .profile-account {
+     background-color: #fff;
+     padding: 40px 0;
+     text-align: center;
+ }
+
+ .profile-image {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     background-color: #007bff;
+     margin: 0 auto 20px;
+ }
+
+ .profile-name {
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 10px;
+
+ }
+
+
+
+ /* Footer Styles */
+ .footer {
+     background-color: #333;
+     color: #fff;
+     padding: 20px 0;
+     text-align: center;
+ }
+
+ .footer p {
+     margin: 0;
+ }
+
+ /* Genre Sections Styles */
+ .genre-section {
+     background-color: #fff;
+     align-items: center;
+     padding: 80px 0;
+     text-align: center;
+ }
+
+ .genre-box {
+     background-color: #007bff;
+     padding-left: 30%;
+     color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background-color 0.3s ease-in-out;
+ }
+
+ .genre-box:hover {
+     background-color: #0056b3;
+ }
+
+ /* .hero{
+            animation: fadeIn 2s;;
+        } */
+
+
+
+ .navigation {
+     font-size: larger;
+     display: flex;
+     flex-direction: row;
+     text-decoration: none;
+ }
+
+ li {
+     list-style: none;
+     padding: 20px;
+ }
+
+ .navbar ul a:link,
+ .navbar ul a:visited,
+ .navbar ul {
+     color: #333;
+     font-size: 30px;
+     text-decoration: none;
+     /* color: white; */
+ }
+
+ #horizontal_line {
+     animation-name: headline;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+
+ }
+
+ .item {
+
+     animation: fadeIn 1s;
+ }
+
+ #horizontal_line {
+     animation-name: headline;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+
+ }
+
+ .main-heading {
+     /* animation-name: headline;
+             animation-duration: 3s;
+            animation-iteration-count: 1; */
+     height: 100vh;
+     background-image: url('https://images.unsplash.com/photo-1513001900722-370f803f498d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     text-align: center;
+     /* padding: 20px; */
+     margin-bottom: 20px;
+     z-index: -1;
+     opacity: 0.9;
+     /* Adjust padding as needed */
+ }
+
+
+ @keyframes headline {
+     0% {
+         opacity: 0;
+         max-width: 0;
+     }
+
+     100% {
+         opacity: 1;
+         max-width: 1520px;
+     }
+ }
+
+ .main-heading h1,
+ .main-heading p {
+     /* border: 2px solid red; */
+     animation-name: fadeIn;
+     animation-duration: 2s;
+     font-size: 50px;
+     /* animation-iteration-count: 1; */
+     /* opacity: 0; */
+ }
+
+ @keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+
+ #horizontal_line {
+     width: 100px;
+     color: black;
+     animation-name: headline;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+
+ }
+
+ section {
+     height: 367px;
+     /* border: 2px solid red; */
+     /* animation code */
+     animation-name: fadeIn;
+     animation-duration: 3s;
+     animation-iteration-count: 1;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* to center contents inside the red box, do the foloowing */
+     justify-content: center;
+
+
+ }
+
+
+ .genre-section {
+     background-color: #fff;
+     align-items: center;
+     /* padding: 80px 0; */
+     text-align: center;
+     margin-bottom: 20px;
+     /* Add margin-bottom for space */
+ }
+
+
+ 
